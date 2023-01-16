@@ -7,7 +7,6 @@ import { validateUuid } from './utils/utils.js';
 
 config({ path: resolve(cwd(), '.env') });
 
-const USER_URL = '/api/users'
 
 export const startServer = () => {
     const server = http.createServer(async(req, res) => {
