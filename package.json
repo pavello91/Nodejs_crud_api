@@ -1,19 +1,25 @@
 {
-  "name": "crud_api",
-  "version": "1.0.0",
-  "description": "crud_api",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pavello91/Nodejs_crud_api.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pavello91/Nodejs_crud_api/issues"
-  },
-  "homepage": "https://github.com/pavello91/Nodejs_crud_api#readme"
+    "name": "crud_api",
+    "version": "1.0.0",
+    "description": "crud_api",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pavello91/Nodejs_crud_api.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pavello91/Nodejs_crud_api/issues"
+    },
+    "homepage": "https://github.com/pavello91/Nodejs_crud_api#readme",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "nodemon": "^2.0.20",
+        "uuid": "^9.0.0"
+    }
 }
